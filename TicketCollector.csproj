@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputPath>bin</OutputPath>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Authors>Julian Pratt</Authors>
+    <AssemblyTitle>TicketCollector</AssemblyTitle>
+    <Description>Console app to copy documents and metadata from an Azure File Share to local folders.</Description>
+    <Summary>Console app to copy documents and metadata from an Azure File Share to local folders.</Summary>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageId>TicketCollector</PackageId>
+    <AssemblyName>TicketCollector</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mistware.Files" Version="1.0.0" />
+    <PackageReference Include="Mistware.Utils" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

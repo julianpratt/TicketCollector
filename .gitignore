@@ -1,0 +1,12 @@
+bin/**
+lib/**
+obj/**
+wwwroot/lib/**
+test/bin/**
+test/obj/**
+.DS_Store
+.vscode/**
+webapp/.vscode/**
+test/.vscode/**
+.vs
+packages/**
